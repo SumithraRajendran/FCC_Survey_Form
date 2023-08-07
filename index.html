@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">U&Me Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div class="input-element">
+            <label id="name-label">Name</label>
+            <input placeholder="name" id="name" type="text" required>
+        </div>
+        <div class="input-element">
+            <label id="email-label">Email</label>
+            <input placeholder="email" id="email" type="email" required>
+        </div>
+        <div class="input-element">
+            <label id="number-label">Age</label>
+            <input placeholder="age" id="number" min="5" max="100" type="number" required>
+        </div>
+        <div class="input-element">
+            <label id="select-label">which is your favorite spot?</label>
+            <select id="dropdown">
+                <option>Beaches</option>
+                <option>Gardens</option>
+                <option>Restaurants</option>
+            </select>
+        </div>
+        <div class="input-element">
+            <label>Have you been enjoy this app</label>
+            <div>
+                <label><input type="radio" name="app" value="yes">yes</label>
+            </div>
+            <div>
+                <label><input type="radio" name="app" value="no">No</label>
+            </div>
+        </div>
+        <div class="input-element">
+            <label>which suggestions are good ideas to implement app?</label>
+            <div>
+                <label><input type="checkbox" name="ideas" value="date">Package of pleasant date</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="ideas" value="gift">More suprise gifts</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="ideas" value="food">Booking a restaurants of your choice </label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="ideas" value="spot">Decorator a beautiful spot</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="ideas" value="ride">Comfortable ridings</label>
+            </div>
+        </div>
+        <div class="input-element">
+            <label> comments </label>
+            <textarea type="text"></textarea>
+        </div>
+        <button type="submit" id="submit">
+            submit
+        </button>
+    </form>
+
+</body>
+
+</html>

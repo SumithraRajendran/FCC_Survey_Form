@@ -22,7 +22,7 @@ Welcome to the README for the Responsive Website Survey Form project. This proje
 
 ## Demo
 
-Check out the live demo of the Responsive Website Survey Form [here](https://codepen.io/Sumithra-Rajendran/pen/eYQoZye).
+Check out the live demo of the Responsive Website Survey Form [here](https://codepen.io/Sumithra-Rajendran/full/eYQoZye).
 
 ## Getting Started
 
